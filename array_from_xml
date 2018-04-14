@@ -1,0 +1,106 @@
+array(17) {
+[0]=> array(5) {
+["tag"]=> string(10) "S:ENVELOPE"
+["type"]=> string(4) "open"
+["level"]=> int(1)
+["attributes"]=> array(1) {
+["XMLNS:S"]=> string(41) "http://schemas.xmlsoap.org/soap/envelope/"
+}
+["value"]=> string(1) " "
+}
+[1]=> array(4) {
+["tag"]=> string(6) "S:BODY"
+["type"]=> string(4) "open"
+["level"]=> int(2)
+["value"]=> string(1) " "
+}
+[2]=> array(5) {
+["tag"]=> string(26) "NS0:PAYMENTSERVICERESPONSE"
+["type"]=> string(4) "open"
+["level"]=> int(3)
+["attributes"]=> array(1) {
+["XMLNS:NS0"]=> string(44) "http://services.apiservices.vodafone.com.gh/"
+}
+["value"]=> string(1) " "
+}
+[3]=> array(4) {
+["tag"]=> string(6) "RETURN"
+["type"]=> string(4) "open"
+["level"]=> int(4)
+["value"]=> string(1) " "
+}
+[4]=> array(4) {
+["tag"]=> string(10) "STATUSCODE"
+["type"]=> string(8) "complete"
+["level"]=> int(5)
+["value"]=> string(1) "0"
+}
+[5]=> array(4) {
+["tag"]=> string(6) "RETURN"
+["value"]=> string(1) " "
+["type"]=> string(5) "cdata"
+["level"]=> int(4)
+}
+[6]=> array(4) {
+["tag"]=> string(13) "STATUSMESSAGE"
+["type"]=> string(8) "complete"
+["level"]=> int(5)
+["value"]=> string(40) "Accept the service request successfully."
+}
+[7]=> array(4) {
+["tag"]=> string(6) "RETURN"
+["value"]=> string(1) " "
+["type"]=> string(5) "cdata"
+["level"]=> int(4)
+}
+[8]=> array(4) {
+["tag"]=> string(13) "TRANSACTIONID"
+["type"]=> string(8) "complete"
+["level"]=> int(5)
+["value"]=> string(32) "AG_20180413_00006db5596c16d995f5"
+}
+[9]=> array(4) {
+["tag"]=> string(6) "RETURN"
+["value"]=> string(1) " "
+["type"]=> string(5) "cdata"
+["level"]=> int(4)
+}
+[10]=> array(3) {
+["tag"]=> string(6) "RETURN"
+["type"]=> string(5) "close"
+["level"]=> int(4)
+}
+[11]=> array(4) {
+["tag"]=> string(26) "NS0:PAYMENTSERVICERESPONSE"
+["value"]=> string(1) " "
+["type"]=> string(5) "cdata"
+["level"]=> int(3)
+}
+[12]=> array(3) {
+["tag"]=> string(26) "NS0:PAYMENTSERVICERESPONSE"
+["type"]=> string(5) "close"
+["level"]=> int(3)
+}
+[13]=> array(4) {
+["tag"]=> string(6) "S:BODY"
+["value"]=> string(1) " "
+["type"]=> string(5) "cdata"
+["level"]=> int(2)
+}
+[14]=> array(3) {
+["tag"]=> string(6) "S:BODY"
+["type"]=> string(5) "close"
+["level"]=> int(2)
+}
+[15]=> array(4) { 
+["tag"]=> string(10) "S:ENVELOPE"
+["value"]=> string(1) " "
+["type"]=> string(5) "cdata"
+["level"]=> int(1)
+}
+[16]=> array(3) {
+["tag"]=> string(10) "S:ENVELOPE"
+["type"]=> string(5) "close"
+["level"]=> int(1)
+}
+}
